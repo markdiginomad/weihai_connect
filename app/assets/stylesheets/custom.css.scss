@@ -83,10 +83,13 @@ img {
     padding: 0.6em;
     height: 35px;
     width: 35px;
+    margin: auto;
+    width: 10%;
     cursor: pointer;
     border-radius: 1px;
     background: transparent;
     overflow: hidden;
+    
 }
 
 .hamburger,
@@ -94,12 +97,12 @@ img {
 .hamburger::after {
     content: '';
     display: block;
-    background: #879397;
+    background: #ebeef1;
     height: 1.5px;
     width: 1.2em;
     text-align: center;
     border-radius: 1px; 
-    color: #7F2B00;
+    
     
 }
 

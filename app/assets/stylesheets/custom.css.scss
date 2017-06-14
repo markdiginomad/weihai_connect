@@ -23,7 +23,7 @@ header::after {
     
 }
 
-img {
+.img {
 
     padding-top: 5px;
     padding-bottom: 10px;
@@ -128,7 +128,7 @@ img {
 
 
 
-@media (min-width: 571px){
+@media (min-width: 569px){
     .menu-toggle {
         display: none;
             position: inherit;

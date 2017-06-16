@@ -31,7 +31,7 @@
         <li><a class="link" href="#">FORUM</a></li>
         <li><a class="link" href="#">LISTINGS</a></li>
         <li><a class="link" href="#">MEDIA</a></li>
-        <li><a class="link" href="#">CONTACT</a></li>
+        <li><%= link_to "CONTACT",  new_contact_path, class: "link" %></li>
       </ul>
     </nav>
     
@@ -40,13 +40,17 @@
       </div>
     </div>
     
-   
-    
   </div>
  </header>
 </section>
 
+<div class="container">
+  <% flash.each do |key, value| %> 
+    <%= content_tag :div, value, class: "alert alert-#{key}" %>
+  <% end %> 
+  
 <%= yield %>
+</div> 
   
   
 </body>

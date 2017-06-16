@@ -54,6 +54,7 @@ header::after {
     height: 0px; 
     overflow: hidden;
     margin-left: 0px;
+    z-index: 5000; 
 }
 
 .site-nav--open {
